@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="about-page">
 <header>
     <div class="container">
         <img src="https://via.placeholder.com/150x50?text=Logo" alt="Your Name" class="logo">
@@ -27,14 +27,16 @@
 </header>
 <main>
     <div>
-        <div> 
-            <h1>About me</h1>
+        <h1>About me</h1>
+    </div> 
+    <div>
+        <div class="container">
             <picture>
                 <source srcset="img/about me/Profile_portfolio_1x.jpg" media="(max-width:767px)">
-                             <img src="img/About me/Profile_portfolio_2x.jpg" alt="My Image">
+                <img src="img/About me/Profile_portfolio_2x.jpg" alt="My Image">
             </picture>
-            <div> 
-                <div class="container">
+            <div>
+                <div>
                     <h2>My story</h2>
                     <p>
                         Hi, my name is Omolade and I'm a User Experience Designer based in Manchester, UK.
@@ -46,11 +48,11 @@
                         I possess excellent communication skills, honed through delivering presentations, talks, and discussions online and in person. I've previously appeared on BBC, ITV News, and Associated Press, discussing various topics such as race, gender, and mental well-being
                     </p>
                     <a href="Files/Omolade Adedapo (4).pdf" target="_blank" class="button">Download my resume</a>
-                    <h2>skills and tools</h2>
-
-                    <div class="container">
-                        <div class="row">
-                        <h3>Relevant skills</h3>
+                </div>
+                <div class="row">
+                    <h2 id="skill-heading"> Skills and tools</h2>
+                    <div class="col-md-6">
+                        <h3>Relevant skills </h3>
                         <ul>
                             <li>Project Management </li>
                             <li>Stakeholder Management</li>
@@ -59,27 +61,24 @@
                             <li>Wireframing and Prototyping</li>
                             <li>User research and User Testing</li>
                         </ul>
-                        </div>
-                        <div class="row">
-                            <h3>Tools</h3>
-                            <ul>
-                                <li>Figma</li>
-                                <li>Optimal workshop</li>
-                                <li>Mailchimp</li>
-                                <li>SurveyMonkey</li>
-                                <li>Lyssna</li>
-                                <li>Canva</li>
-                            </ul>
-                        </div>
                     </div>
-
+                    <div class="col-md-6">
+                        <h3>Tools
+                        </h3>
+                        <ul>
+                            <li>Figma</li>
+                            <li>Optimal workshop</li>
+                            <li>Mailchimp</li>
+                            <li>SurveyMonkey</li>
+                            <li>Lyssna</li>
+                            <li>Canva</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
         </div>
     </div>
 </main>
-
 <footer id="contact">
     <div class="container">
         <h2>Get in touch</h2>
@@ -90,7 +89,7 @@
             <a href="mailto:omoladeadedapo@hotmail.com" class="button contact" >Email Me</a>
         </div>
         <div>
-            <ul>
+            <ul class="social">
                 <li><a href="ANOTHER-SOCIAL-LINK"></li>
                 <i class="fa-brands fa-x-twitter"></i>
 
