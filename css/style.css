@@ -29,13 +29,9 @@ Tex colour (black) #1d1d1d
 #hero h1 {
   text-align: center; /* Centers text */
   }
-.logo {
-  max-width: 150px;
-  }
 nav > ul {
   list-style-type: none;
   padding: 0;
-  margin: 1em 0;
 }
 nav > ul > li > a {
   padding: 0 15px;
@@ -63,6 +59,7 @@ h1 {
 h2 {
   font-size: 2.25em;
   font-weight: 700;
+  text-align: center;
   }
   
 h3 {
@@ -81,13 +78,17 @@ img {
 
 header {
   background-color: hsl(17, 88%, 84%);
-  padding: 10px;
-  margin: 10px;
+  padding: 10px 0 4px;
   border-bottom: 3px solid #f0622a;
   box-shadow: -2px 5px 20px #47322d8f; 
-  position:relative
+  position:fixed;
+  width: 100%;
 }
-
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+  max-width: 150px;
+}
 #hero {
   background-color:#fac7b3;
   padding: 20px 0;
@@ -105,6 +106,7 @@ header {
 #contact {
   background-color:white;
 }
+
 .social li {
   list-style-type: none;
   padding: 0;
@@ -191,6 +193,13 @@ a:active { /* selected link */
   padding: 10px 0;
   border-top:solid #b64c22;
 }
+.navtoggle.responsive ul {
+  margin-top: 1em; 
+  }
+main {
+  padding-top: 58.59px;
+}
+
 
 /* ==============================
 Medium devices (640px and larger)
@@ -205,9 +214,6 @@ nav {
   float: right;
   margin-top: 4px;
 }
-nav > ul {
-  margin: 1em 0;
-}
 body {
   font-size: 18px;
 }
@@ -220,6 +226,9 @@ body {
 }
 .logo {
   max-width: 150px;
+}
+nav > ul {
+  margin: 1em 0;
 }
 nav > ul > li {
   display: inline-block;
