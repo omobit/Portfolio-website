@@ -302,7 +302,17 @@ nav > ul > li {
 .hero h1 {
   text-align: center;
 }
-
+.hero {
+  background-color:#fac7b3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.hero span {
+  display: inline-block;
+}
 .hero .typewriter {
   display: inline-block;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -323,7 +333,13 @@ nav > ul > li {
   from, to { border-color: transparent; }
   50% { border-color: #f05d23; }
 }
-
+#profile_img {
+  max-width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -354,7 +370,17 @@ margin-top: 4px;
 .hero h1 {
   text-align: center;
 }
-
+.hero {
+  background-color:#fac7b3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.hero span {
+  display: inline-block;
+}
 .hero .typewriter {
   display: inline-block;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -375,6 +401,13 @@ margin-top: 4px;
   from, to { border-color: transparent; }
   50% { border-color: #f05d23; }
 }
+#profile_img {
+  max-width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
 }
 /* ==============================
 X-large devices (1440px or larger)
@@ -384,7 +417,17 @@ X-large devices (1440px or larger)
   .hero h1 {
     text-align: center;
   }
-  
+  .hero {
+    background-color:#fac7b3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .hero span {
+    display: inline-block;
+  }
   .hero .typewriter {
     display: inline-block;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -404,5 +447,12 @@ X-large devices (1440px or larger)
   @keyframes blink-caret {
     from, to { border-color: transparent; }
     50% { border-color: #f05d23; }
+  }
+  #profile_img {
+    max-width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
   }
 }
